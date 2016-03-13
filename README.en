@@ -1,0 +1,22 @@
+README:
+=======
+
+f734drv.php
+
+This software implements basic driver to manage batch barcode scanner Datalogic FORMULA F734-E
+At this moment only dump/delete functions are supported.
+
+REQUIREMENTS:
+The driver is written in PHP5 (or newest) to permit porting between different operating systems.
+f734drv need PHP compiled with serial support ( --enable-dio ).
+
+The driver work with command line. To get more information type:
+
+# f734drv --help
+
+The driver supports English and Italian languages by reading the LANG environment variable. So, if you 
+want to start the driver in Italian language in your english system you must set LANG variable first typing:
+
+# export LANG=it_IT; f734drv --help
+
+Please report bugs to: <gchiesa@smos.org>

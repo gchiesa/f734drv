@@ -1,0 +1,20 @@
+README:
+=======
+
+f734drv.php
+
+Questo file implementa il driver di base per la gestione del terminale scanner batch
+Datalogic FORMULA F734. Le funzioni supportate sono la lettura/dump dei dati raccolti con il 
+terminale e la cancellazione dei dati stessi.
+
+REQUISITI:
+Il driver è scritto in PHP4 (o superiori) per garantirne la portabilità tra diverse piattaforme. 
+Per questo motivo necessità dell'interprete PHP compilato con il supporto seriale --enable-dio in 
+fase di compilazione.
+
+Il driver funziona da riga di comando. Per ottenere maggiori informazioni digitare:
+ 
+f734drv --help
+
+Per segnalazioni di bug o malfunzionamenti contattare <gchiesa@smos.org>
+
